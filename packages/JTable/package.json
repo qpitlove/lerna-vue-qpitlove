@@ -1,6 +1,6 @@
 {
   "name": "@qpitlove/j-table",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publishConfig": {
     "access": "public"
   },
@@ -16,6 +16,6 @@
     "rimraf": "^3.0.0"
   },
   "dependencies": {
-    "@qpitlove/j-table-row": "^0.1.2"
+    "@qpitlove/j-table-row": "^0.1.3"
   }
 }
