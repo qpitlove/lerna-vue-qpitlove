@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "vue-cli-service build --target lib ./src/index.js"
+    "build": "rimraf dist && vue-cli-service build --target lib ./src/index.js"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.1.1"
+    "@vue/cli-service": "^4.1.1",
+    "rimraf": "^3.0.0"
   }
 }
