@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import JTableRow from './JTableRow'
 
 storiesOf('JTableRow', module)
-  .add('normal', () => ({
+  .add('with 2 items', () => ({
     components: { JTableRow },
     template:
     `
