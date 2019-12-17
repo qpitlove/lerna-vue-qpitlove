@@ -8,7 +8,7 @@
   "main": "dist/index.umd.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "npm run clean && vue-cli-service build --target lib --name index ./src/index.js",
+    "build": "vue-cli-service build --target lib --name index ./src/index.js",
     "clean": "rimraf dist"
   },
   "devDependencies": {

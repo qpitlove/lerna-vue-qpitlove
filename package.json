@@ -19,10 +19,10 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "build": "lerna run clean && lerna run build",
+    "clean": "lerna run clean",
     "lerna-bootstrap": "lerna bootstrap",
     "lerna-publish": "npm run build && lerna publish",
-    "lerna-clean": "lerna clean",
-    "build": "lerna run build",
-    "clean": "lerna run clean"
+    "lerna-clean": "lerna clean"
   }
 }
