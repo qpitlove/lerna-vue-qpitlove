@@ -1,0 +1,13 @@
+{
+  "name": "@qpitlove/j-table-row",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib ./src/index.js"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.1"
+  }
+}

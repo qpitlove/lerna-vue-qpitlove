@@ -1,0 +1,13 @@
+{
+  "name": "@qpitlove/my-button",
+  "version": "0.0.0",
+  "description": "Just a simple button component",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib ./src/index.js"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.1"
+  }
+}
