@@ -1,6 +1,7 @@
 {
   "name": "@qpitlove/j-table-row",
   "version": "0.1.3",
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
