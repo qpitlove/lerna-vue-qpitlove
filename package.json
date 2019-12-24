@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.7.5",
+    "@babel/core": "^7.7.7",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
@@ -18,11 +18,10 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build": "lerna run clean && lerna run build",
-    "clean": "lerna run clean",
-    "lerna-bootstrap": "lerna bootstrap",
-    "lerna-publish": "npm run build && lerna publish",
-    "lerna-clean": "lerna clean"
+    "storybook:build": "build-storybook",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:clean": "lerna clean",
+    "lerna:build": "lerna run clean && lerna run build",
+    "lerna:publish": "npm run build && lerna publish"
   }
 }
