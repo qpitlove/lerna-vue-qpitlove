@@ -25,6 +25,6 @@ npm install --save-dev @vue/cli-service
 ```
 
 ```
-# lerna add @qpitlove/j-table-row --scope=@qpitlove/j-table
+# lerna add @qpitlove-vue/j-table-row --scope=@qpitlove-vue/j-table
 ./node_modules/.bin/learn bootstrap
 ```
