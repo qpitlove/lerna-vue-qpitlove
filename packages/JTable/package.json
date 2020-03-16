@@ -1,5 +1,5 @@
 {
-  "name": "@qpitlove/j-table",
+  "name": "@qpitlove-vue/j-table",
   "version": "0.2.4",
   "private": false,
   "publishConfig": {
@@ -17,6 +17,6 @@
     "rimraf": "^3.0.0"
   },
   "dependencies": {
-    "@qpitlove/j-table-row": "^0.1.4"
+    "@qpitlove-vue/j-table-row": "^0.1.4"
   }
 }

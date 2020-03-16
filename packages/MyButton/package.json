@@ -1,5 +1,5 @@
 {
-  "name": "@qpitlove/my-button",
+  "name": "@qpitlove-vue/my-button",
   "version": "0.1.4",
   "private": false,
   "publishConfig": {

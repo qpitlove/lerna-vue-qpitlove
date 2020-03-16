@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import JTableRow from '@qpitlove/j-table-row'
+import JTableRow from '@qpitlove-vue/j-table-row'
 export default {
   name: 'JTable',
   props: {

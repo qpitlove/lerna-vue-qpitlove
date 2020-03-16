@@ -1,5 +1,5 @@
 {
-  "name": "@qpitlove/j-table-row",
+  "name": "@qpitlove-vue/j-table-row",
   "version": "0.1.4",
   "private": false,
   "publishConfig": {
