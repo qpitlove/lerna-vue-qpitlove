@@ -22,6 +22,6 @@
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:clean": "lerna clean",
     "lerna:build": "lerna run clean && lerna run build",
-    "lerna:publish": "npm run build && lerna publish"
+    "lerna:publish": "npm run lerna:build && lerna publish"
   }
 }
