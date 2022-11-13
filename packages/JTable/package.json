@@ -13,7 +13,7 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.1.1",
+    "@vue/cli-service": "^5.0.8",
     "rimraf": "^3.0.0"
   },
   "dependencies": {
